@@ -1,0 +1,394 @@
+/*!
+ * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Varela Round', 'Open Sans', 'Avenir', 'Helvetica Neue', Arial, 'Merriweather', sans-serif;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #f74843; /* #F05F40 */
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+a {
+  color: #f74843;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-family: 'Varela Round';
+}
+
+a:hover {
+  color: #f74843;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Varela Round', 'Open Sans', 'Avenir', 'Helvetica Neue', Arial, sans-serif;
+}
+
+p {
+    font-size: 19px; /*originally at default*/
+    font-family: 'Varela Round';
+}
+
+.section-heading {
+    font-size: 40px;
+    font-weight: 700;  
+}
+
+.bg-primary {
+  background-color: #f74843; !important;
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section {
+  padding: 6rem 0; /*originally 8rem 0 */
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/*
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: none;
+  color: #f74843;
+  font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+*/
+
+/*NEW*/
+#mainNav .navbar-brand svg path,
+#mainNav .navbar-brand svg:hover path,
+#mainNav .navbar-brand svg:focus path { /* fun with path:hover! */
+    fill: #f74843;
+}
+
+#mainNav.navbar-shrink .navbar-brand svg path,
+#mainNav.navbar-shrink .navbar-brand svg path:focus {
+    fill: #f74843;
+  }
+
+/*NEW END*/
+
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f74843;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: 1.05rem; /*.9rem*/
+  font-weight: 400; /*700*/
+  text-transform: none;
+  color: #212529;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #f74843;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #f74843 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+    /*
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7); 0.7 opacity originally
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  } */
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  } 
+    /*
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #f74843;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f74843;
+  } */
+    
+  /* NEW 
+  #mainNav .navbar-brand svg path,
+  #mainNav .navbar-brand svg path:focus
+  #mainNav .navbar-brand svg path:hover
+  #mainNav .navbar-brand svg path:visited {
+    fill: #f74843 !important;
+  } */
+    
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #f74843;
+  }
+
+    
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/header.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 3.5rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+    background-image: url("../img/header_mini.jpg");
+  }
+    
+  header.masthead h1 {
+    font-size: 2.5rem !important;
+  }
+
+}
+
+@media (max-width: 992px) {
+    
+  .big_image_1 {
+ margin-top: 30px;  
+ margin-bottom: -20px; 
+  }
+    
+  .big_image_2 {
+ margin-top: -20px; 
+ margin-bottom: 50px;
+      width: 285px !important;
+  } 
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+}
+
+.service-box {
+  max-width: 400px;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(240, 95, 64, 0.9);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+
+.text-primary {
+  color: #f74843 !important;
+}
+
+.btn {
+  font-weight: 400; /*700*/
+  text-transform: none;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Varela Round', 'Avenir', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #f74843;
+  border-color: #f74843;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #f74843 !important; /*#ee4b28*/
+}
+
+.btn-primary:active, .btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+
+
+
+
+.animatedhover {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+.animatedhover:hover {
+  animation-play-state: running;
+}
