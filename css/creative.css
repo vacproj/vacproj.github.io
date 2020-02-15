@@ -70,6 +70,10 @@ section {
   padding: 6rem 0; /*originally 8rem 0 */
 }
 
+section.privacy {
+  padding-bottom: 1rem; /*originally 8rem 0 */
+}
+
 .section-heading {
   margin-top: 0;
 }
@@ -221,6 +225,10 @@ header.masthead {
   background-image: url("../img/header.jpg");
   background-position: center center;
   background-size: cover;
+}
+
+header.privacy{
+  background-image: url("../img/header_privacy.jpg");
 }
 
 header.masthead hr {
