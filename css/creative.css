@@ -255,6 +255,10 @@ header.masthead p {
     background-image: url("../img/header_mini.jpg");
   }
     
+  header.privacy{
+  background-image: url("../img/header_privacy.jpg");
+  }
+    
   header.masthead h1 {
     font-size: 2.5rem !important;
   }
